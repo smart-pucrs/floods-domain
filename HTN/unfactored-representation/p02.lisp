@@ -1,5 +1,5 @@
-;;--------------------------------------------------------------
-(defproblem p02 floods-uav
+(in-package :shop2-user)
+(defproblem p02 floods
    (
     ;;;
     ;;;  facts
@@ -211,4 +211,4 @@
 (:task deliver_sample cdm2 area13)
 ))
 
-(find-plans 'p02 :which :shallowest :verbose :plans)
+(find-plans 'p02 :verbose :plans)
