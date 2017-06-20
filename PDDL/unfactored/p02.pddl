@@ -5,55 +5,9 @@
 	area1 area2 area3 area4 area5 area6 area7 area8 area9 area10 area11 area12 area13 area14 area15 area16 area17 area18 area19 area20 - area
 	disaster1 disaster2 disaster3 disaster4 disaster5 disaster6 - disaster
 	box1 box2 box3 - box
-
-	(:private uav1
-		uav1 - uav
-	)
-
-	(:private uav2
-		uav2 - uav
-	)
-
-	(:private uav3
-		uav3 - uav
-	)
-
-	(:private uav4
-		uav4 - uav
-	)
-
-	(:private ugv1
-		ugv1 - ugv
-	)
-
-	(:private ugv2
-		ugv2 - ugv
-	)
-
-	(:private ugv3
-		ugv3 - ugv
-	)
-
-	(:private ugv4
-		ugv4 - ugv
-	)
-
-	(:private usv1
-		usv1 - usv
-	)
-
-	(:private usv2
-		usv2 - usv
-	)
-
-	(:private usv3
-		usv3 - usv
-	)
-
-	(:private usv4
-		usv4 - usv
-	)
-
+	uav1 uav2 uav3 uav4 - uav
+	ugv1 ugv2 ugv3 ugv4 - ugv
+	usv1 usv2 usv3 usv4 - usv
 	)
 (:init
 	(store_of ugv1Store ugv1)
